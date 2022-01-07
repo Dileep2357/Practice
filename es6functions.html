@@ -1,0 +1,11 @@
+<div id="output"></div>
+
+<script>
+    function greetings(userName) {
+        let message = "<h1> Greetings" + userName + "!";
+        message += " It is going to be a great day ahead!";
+        return message;
+    }
+    let myMessage = greetings("Dileep");
+    document.getElementById('output').innerHTML = myMessage;
+</script>

@@ -1,0 +1,26 @@
+<div id="output"></div>
+
+<script>
+    /*{
+        alert("Greetings, People!");
+    }*/
+
+
+    var out = "";
+    function personalGreetings (name)
+    {
+        out += "Greetings " + name + "</br>";
+        document.getElementById('output').innerHTML = out
+    }
+    personalGreetings ("Bob Marley")
+    personalGreetings ("Vadada Dileep Chand")
+    personalGreetings ("Tony Stark")
+
+    function howOld (name, age)
+    {
+        alert (name + "is " + age + " years old.");
+    }
+
+    howOld ("Vadada " , 23)
+
+</script>

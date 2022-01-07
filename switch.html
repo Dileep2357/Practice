@@ -1,0 +1,25 @@
+<div id="output"> </div>
+
+<script>
+    var Grade = prompt("Enter the value")
+
+    switch (Grade) {
+        case "A":
+        case "a": document.getElementById('output').innerHTML = "Great Job!";
+            break;
+        case "B":
+        case "b": document.getElementById('output').innerHTML = "Keep it up!";
+            break;
+        case "C":
+        case "c": document.getElementById('output').innerHTML = "Brush up and focus";
+            break;
+        case "D": 
+        case "d": document.getElementById('output').innerHTML = "D is for Dumb!";
+            break;
+        case "F":
+        case "f": document.getElementById('output').innerHTML = "F....Failure!";
+            break;
+        default : document.getElementById('output').innerHTML = "Unrecognized Text";
+            break;
+    }
+</script>

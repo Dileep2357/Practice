@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Salary
+        </title>
+    </head>
+    <body>
+        <div id="out"></div>
+        <script>
+            var weeklysalary = "1350";
+            var output = "";
+            output += "Weekly Salary: Rs " + weeklysalary;
+            var salarybyyear = weeklysalary*52;
+            output += "<br/>Yearly Salary: Rs " + salarybyyear;
+            var monthlysalary = salarybyyear/12;
+            output += "<br/>Monthly Salary: Rs " + monthlysalary;
+            document.getElementById('out').innerHTML = output;
+
+        </script>
+    </body>
+</html>
