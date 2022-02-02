@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+.Nav {
+    background-color: red;
+    overflow: hidden;
+}
+
+.Nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.Nav a:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+.Nav a.active {
+    background-color: yellow;
+    color: green;
+}
+
+/*.Nav .search-container {
+    float:right;
+    
+}*/
+
+.Nav input[type=text] {
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    font-size: 23px;
+}
+.button {
+    float: right;
+    cursor: pointer;
+}
+.Nav.search-container button:hover {
+    background-color: #ccc;
+}
+.fa.fa-search {
+    font-size: 25px;
+    background-color: red ;
+    border: 0px;
+    padding: 0px ;
+}
+
+    </style>
+</head>
+
+
+<body>
+    
+    <div class="Nav">
+        <a class="active" href="#home">TeeShopper</a>
+        <a href="#gopremium">GoPremium</a>
+        <a href="#startdesign">Start Designing</a>
+        <a href="#myaccount">My Account</a>
+        <div class="button">
+        <input type="text" placeholder="Search.." name="search">
+       
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </div>
+    </div>
+    
+    
+</body>
+</html>
